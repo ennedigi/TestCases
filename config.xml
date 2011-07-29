@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<testCase name="Jump TEST">
+  <conf>
+	<version>4.5 build 17a</version>
+	<environment>eidos04lxqa</environment>       
+	<account></account>
+	<file></file>
+  </conf>
+  
+  <procedures delimiter="==">
+    <procedure name="nOfJumps" values="2,3"/>
+	<procedure name="channelCopy" values="yes,no"/>
+	<procedure name="change" values="move,swap,insert"/>
+	<procedure name="onWhich" values="former,middle,latter"/>
+  </procedures>
+
+
+</testCase>
